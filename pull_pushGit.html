@@ -1,0 +1,33 @@
+<h1>How to pull / push content from git hub to local terminal</h1>
+<h2>How to create a repo</h2>
+<p> ~/mkdir ftwManual</p>
+<!-- creates a directory called ftw manual -->
+<p>cd ~/mkdir ftwManual</p>
+<!-- Changes the current working directory to your newly created directory -->
+<p> git init</p>
+<!-- Sets up the necessary Git files, Creates an empty git repository or reinitializes an existing one -->
+<p>touch README.md</p>
+<!--touch creates new empty files, in this case a README file -->
+<p>git add (repo)</p>
+<!-- add changes or new files to the folder-->
+<p>git status</p>
+<!-- check to see if file changes are acknowledged-->
+<p>git commit -m "insert a relevent message"</p>
+<!-- commits change in file, leaves a message on git commit page -->
+<p>git status</p>
+<!-- displays current status of directory-->
+<h2>How to clone a fork</h2>
+<p>git clone (repo)</p>
+<!-- clones git file based on repo(ssh address) -->
+<p>git remote add (repo)</p>
+<!-- Assigns the original repo to a remote called "upstream" -->
+<p>git fetch upstream</p>
+<!-- Pulls in changes not present in your local repository, without modifying your files -->
+<h2>How to pull in files from git</h2>
+<p>git pull (repo)</p>
+<!-- pulls in files from repo(ssh address) -->
+<p>git add (file to be added)</p>
+<!-- adds file contents to index -->
+<h2>How to push file to git</h2>
+<p>git push </p>
+<!-- if setting up a repo then you would include a repo address otherwise as long as your in the file git push will work-->
