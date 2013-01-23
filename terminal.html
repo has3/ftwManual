@@ -10,14 +10,18 @@ manual for navigating bash
                 <!-- returns The agent has no identities.-->
                 <p> ssh -add</p>
                 <p> cd ssh/ </p>
+                <!-- cd is the command to change current directory-->
                 <p> ls </p>
+                <!-- List information about files -->
                 <i> rm all but local host </i>
-                <!-- check files with ls should only retuen local host -->
+                <!-- rm is remove command. check files with ls should only retuen local host -->
                 <p> ssh-keygen</p>
                 <p> cat id_rsa.pub</p>
+                <!-- cat is concatenate command. used to display or move into a file -->
                 <h2> to set up/ navigate dir</h2>
                 <p> ssh-add -l</p>
                 <p> cd ..</p>
+                <!-- moves up a directory -->
                 <p> ls </p>
                 <!-- return folders in heatherstewart$ -->
                 <p> ls -a</p>
@@ -33,30 +37,19 @@ manual for navigating bash
                 <p> cd ftwsite</p>
                 <p> ls</p>
                 <!-- return all files in ftw clone -->
+                <p>mkvirtualenv (name)</p>
+                <!-- creates virtual environment-->
                 <p> workon</p>
                 <!-- return ftwsite (workon enters virtualenv)-->
                 <p> workon ftwsite</p>
                 <p> pip install -r requirments.txt</p>
                 <!-- returns download/ unpack files -r is recursive -moves through all files -->
-                <p> ls</p>
-                <!-- returns files in ftwsite -->
-                <p> cd ..</p>
-                <!-- moves up a file -->
-                <p> ls</p>
-                <!-- returns (ftwsite) -->
-                <p>cd ftwsite</p>
                 <p>ls -l</p>
                 <!-- returns all python files -->
-                <p> cd ftwsite</p>
-                <!-- enter into ftwsite-->
                 <p> workon ftwsite</p>
-                <!-- reenter virtualenv-->
+                <!-- enter virtualenv (virtualenv: An isolated Python environment. Allows you to control which packages are used on a particular project by cloning your main Python-->
                 <p> python manage.py syncdb</p>
                 <!-- return [Errno 2] No such file or directory b/c need to move up one directory-->
-                <p>ls</p>
-                <!-- describes current files to access-->
-                <p> cd ..</p>
-                <p> ls</p>
                 <p> pip freeze</p>
                 <!-- pulls in local python/django/cms-->
                 <p> deactivate ftwsite</p>

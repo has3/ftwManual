@@ -1,0 +1,11 @@
+<h1>Hwo to get inot vim and keyboard shortcuts</h1>
+<p>Using home brew type: brew update</p>
+<p>brew install (program)</p>
+<!-- to enter bash profile -->
+<p>vim ~.bash_</p>
+<!-- returns user/heatherstewart/bash_profile -->
+<!-- once in vim, some keyboard shortcuts -->
+<p>shift B takes you to the beginning of a line</p>
+<p>shift A takes you to the end of a line</p>
+<p>i shifts you from keyboard navigation to input mode</p>
+<p>esc :wq quits your input mode and takes you back to the command line</p>
